@@ -1,1 +1,0 @@
-/home/zuki/Documents/GitHub/ROV/ros2_ws/src/joy_controller/setup.py
