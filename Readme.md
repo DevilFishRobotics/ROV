@@ -1,5 +1,32 @@
 # ROV
 
+## Getting Started
+- **clone the repo**
+
+`git clone https://github.com/DevilFishRobotics/ROV.git`
+- **enviroment setup**
+
+`sudo apt update`
+
+`sudo apt upgrade`
+
+`sudo apt install python3-pip`
+
+`pip3 install setuptools==58.2.0`
+
+`cd ROV/ros2_ws`
+
+You can add the install.sh into your .bashrc file or:
+
+`source install/install.sh`
+
+`colcon build`
+
+- **test ros2 node**
+
+`ros2 run joy_controller joy_node`
+
+
 ## ros2_ws
 This is the ROS2 workspace for the ROV. It contains the following packages:
 - joy_controller - A package that will take in joystick input and publish it to the /joy topic
