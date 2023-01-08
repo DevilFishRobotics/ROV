@@ -1,5 +1,9 @@
 # ROV
 
+## Prerequisite
+Please watch this ROS2 [tutorial](https://youtu.be/Gg25GfA456o) before getting started with development.
+
+
 ## Getting Started
 - **clone the repo**
 
