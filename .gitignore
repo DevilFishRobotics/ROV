@@ -52,3 +52,12 @@ qtcreator-*
 
 # Catkin custom files
 CATKIN_IGNORE
+
+#no idead how to use test files so im going to remove them from the repository
+/test/*
+
+#install files for other terminals or OS
+/install/*.ps1
+/install/*.zsh
+/install/*.bash
+/install/_local_setup_util.ps1.py
