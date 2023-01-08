@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'joy_node = joy_controller.my_first_node:main',
+            'joy_node = joy_controller.start:main',
         ],
     },
 )
